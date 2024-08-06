@@ -3,8 +3,7 @@ import java.util.Random;
 
 public class Randoms implements Iterable<Integer> {
     protected Random random;
-    Integer r, min, max;
-    Integer diff;
+    int min, max;
 
 
     public Randoms(int min, int max) {
